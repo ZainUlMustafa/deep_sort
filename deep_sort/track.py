@@ -64,7 +64,7 @@ class Track:
     """
 
     def __init__(self, mean, covariance, track_id, n_init, max_age,
-                 feature=None, class_name=None, confidence=None):
+                 feature=None, confidence=None):
         self.mean = mean
         self.covariance = covariance
         self.track_id = track_id
@@ -79,7 +79,7 @@ class Track:
 
         self._n_init = n_init
         self._max_age = max_age
-        self.class_name = class_name
+        # self.class_name = class_name
         self.confidence = confidence
 
     def to_tlwh(self):
