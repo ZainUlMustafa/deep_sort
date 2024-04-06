@@ -1,7 +1,6 @@
 # Deep SORT
 
-This fork updates the DeepSort to be compatible with TensorFlow 2.4. The original repository is 
-not updated and is still dependant on TensorFlow 1.x, which are not really compatible between each other without additional changes.
+This fork updates the DeepSort to be compatible with TensorFlow 2.x. This is a continuation of previous forks.
 
 ## Introduction
 
